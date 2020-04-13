@@ -1,0 +1,85 @@
+Inheritance- one of the concepts of OOP.       Can super class have more than one subclass?
+
+This concept is used for building relationship between classes.
+
+Relationships are called super and sub relationships .
+
+In java we have a special keyword called extends, we use it to build super and sub relat. between classes.
+
+If I have a class
+public class A, if I want to build relationship between A class and another B class,
+what I can do is- use the extends key word. public class A extends B. the one that's
+extending called sub class, the one that being extended is super class .
+
+
+SUB class (A) is called child class, it can inherit the visible and protected features from the super class.
+Subclass extends to Super class.
+
+              features that have public or protected access modifiers can be inherited anywhere, even outside
+              the package.
+
+              features that have default access modifier: can only be inherited to classes that are
+              in the same package with
+
+              features that have private access modifier: can never be inherited .
+
+
+
+SUPER class (B) :is called parent class, super class cannot inherit any feature from the sub class.
+Class, that being extended. Super class cant take anything from sub class.
+
+
+One class can only extend one class, but one class can be extended by multiple classes.
+
+One super class can have multiple subclasses.
+
+
+
+Protected access modifier only visible to the classes that are in the same package,
+but it can be inheritable to the classes outside the package. not visible, but inheritable,
+only one difference between protected and default.
+
+Single Inheritance : In single inheritance, subclasses inherit the features of one superclass.
+Multilevel Inheritance :
+Hierarchical Inheritance :
+
+
+As we know, a child inherits the properties from his parents.
+A similar concept is followed in Java, where we have two classes:
+
+1. Parent class ( Super or Base class )
+
+2. Child class ( Subclass or Derived class )
+
+A class which inherits the properties is known as Child Class
+  whereas a class whose properties are inherited is known as Parent class.
+
+
+In single inheritance, one class inherits the properties of another.
+It enables a derived class to inherit the properties and behavior
+from a single parent class.
+
+
+BENEFIT of Inheritance:
+- re-usability - you developed the code once,and then you can use it everywhere
+-  it is very easy to maintain . for ex:
+   in your framework if some data has a problem , we can go to one class to fix it.
+   If you fixed it in one class, the thousands of classes gonna inherit it at the same time.
+
+Lets assume we have thousands of test cases . we tested them on chrome.
+And chrome driver got updated, then all test cases got failed. And you need to test test cases
+on the firefox  driver. In that case all we have to do is to go to parent class and fix
+the driver to firefox . At one place. If we don't have Inheritance, we need to update every single classes.
+
+POM - page object module.
+
+
+
+
+
+
+
+
+
+
+

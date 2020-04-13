@@ -1,0 +1,54 @@
+
+When we hear word abstract - its something that is not concrete.
+
+Abstraction concept, concentrates on essentials or important things. It doesn't care about details.
+In Java- not worrying about the details/implementation.
+ Ex: Animals -not concrete, not specific,
+
+ Abstraction- hiding the implementation details, and focusing on importance.
+
+ abstract method- it does not have a body./ or without implementation details of method.
+ it's a method that's meant to be override.
+
+abstract- method that meant to be override. when we override the method,we can add different implementations.
+this method cannot be private or final. Only instance method can be override and can be abstract.
+This abstract method is very special.You cannot create abstract method in regular class.
+It has some requirement. Abstract method can only be declared in abstract class or Interface.
+
+
+Abstract class - abstract is something not concrete,
+               - we cannot create object from it.
+               - class meant to be extended.
+               - abstract class cannot be final
+
+--------------------------------------------------------------------------------------------------------------
+
+Interface- blue print of a class, but its not a class:
+       public interface name{
+
+       }
+we can abstract methods in interface. and let classes implement abstract methods.
+
+
+
+implements keyword - we use it to implement abstract methods to abstract class.
+
+
+Interface meant to be implemented
+Интерфейс должен быть реализован
+
+Why do we need interface?
+-a class can implement multiple interfaces.  класс может реализовывать несколько интерфейсов.
+-a class can extend only one class.          класс может расширять только один класс.
+
+Interface - contract between class and outside world.It provides set of abstract methods.
+
+What we can have in Interface?
+-abstract method.
+-default method
+-static method
+we cannot have constructor.
+
+
+
+

@@ -1,0 +1,60 @@
+
+ArrayList: presented in "java.util" . ArrayList does not support primitives, only store objects.
+           ArrayList's size is dynamic, adjusted установленный automatically,
+           ArrayList is an ordered collection of values ( index number),
+           We can add or remove objects from arrayList.
+
+
+declaration of arrayList"
+1 way :  ArrayList<NonPrimitive> variableName = new ArrayList<NonPrimitive>();
+2 way :  ArrayList<NonPrimitive> variableName = new ArrayList<>(); preferred one.
+
+
+declaration of array:
+int[] arr = new int[5];
+
+
+methods of ArrayList:
+
+add() --> adds objects to arrayList
+
+get(index) --> gets the data from the arrayList
+
+size() --> returns the length of arrayList as int
+
+clear() --> removes everything from arrayList
+
+set(index number, object) --> the given object will replace the object
+                              at the given index number.
+
+contains(object) --> checks if the given object is contained in the
+                     ArrayList or not, and returns boolean value.
+
+equals(ArrayList --> checks if the two arrayLists have same
+                     objects or not, returns boolean value
+
+remove(int) --> removes the given index
+
+remove(Integer) --> removes the first matching object and returns boolean value
+
+indexOf(object) --> returns the index number of the object from the ArrayList
+                    returns int
+
+lastIndexOf(object) --> returns the last index number of the object
+                        from the arrayList, returns int
+
+Arrays.asList(Object Array) --> used to convert object arrays to List interface
+
+addAll(Interface) --> used for storing multiple objects to arrayList
+
+
+
+
+
+ArrayList vs Array:
+AL size is dynamic, A size is fixed
+AL only supports non-primitives, A supports all
+AL cannot be multidimensional , A can be multidimensional
+
+
+

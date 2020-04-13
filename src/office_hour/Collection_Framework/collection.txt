@@ -1,0 +1,48 @@
+
+Array:
+- built into the language, lowest level data structure
+- size fixed,cannot be changed once it was created,
+- it has index
+- can store both primitives and objects
+
+
+Collection Framework:
+
+     1. Interfaces :
+     * Iterable --> Collection --> (List, Set, Queue)
+     * Map --> (SortedMap)
+
+     2. Implementation :
+     * List --> ArrayList, LinkedList
+
+List :  Ordered( indexed) Collection, may contains duplicates
+
+
+
+
+     * Set  --> HashSet , LinkedHashSet
+        SortedSet --> TreeSet
+
+Set : store unique values, no duplicates allowed
+HashSet : default choice, it just keep it unique, no insertion order(нет порядка вставки), no index
+LinkedHashSet : unique plus insertion order
+TreeSet : unique + sorted
+
+
+Deciding whats unique i the HashSet is interview topic. Its easy for Numbers and String.
+And yet its slightly challenging for custom types like Person
+
+
+
+
+     * Queue  --> ArrayDeque, PriorityQueue
+Queue : FIFO first in first out
+        LIFO last in last out
+
+     * Map  --> HashMap, LinkedHashMap, HashTable
+       SortedMap --> TreeMap
+
+Map : Key-value pair, key is unique-no duplicate keys
+
+
+     3. Algorithm :
